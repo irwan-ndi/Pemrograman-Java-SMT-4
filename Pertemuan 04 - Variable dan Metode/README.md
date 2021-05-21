@@ -16,7 +16,29 @@
       * merupakan tipe data yang merujuk pada suatu class object 
       * Tipe data primitif diperlihatkan pada Tabel 3.1
         * Penulisan tipe data pada variabel harus sesuai dengan syntax pemrograman java, seperti contoh berikut ini.
-        * ![Tipe data primitif](https://github.com/irwandirefraugati/Pemrograman-Java-SMT-4/blob/main/Pertemuan%2004%20-%20Variable%20dan%20Metode/images/gambar1.jpg)
+       ```java
+       tipe data namaVariabel = value;
+      tipe data namaVariabel;
+      namaVariabel = value;
+       ```
+     * `Tabel 3.1. Tipe data primitive`
+       Data Type | Default Value | Default Size
+       ------------ | ------------- | -------------
+       int | 0 | 4 byte
+       float | 0.0f | 5 byte
+       long | 0L | 8 byte
+       double | 0.0d | 8 byte
+       boolean | false | 1 bit
+       char | ‘u0000’ | 2 byte
+       byte | 0 | 1 byte
+       short | 0 | 2 byte
+    - _Contoh_
+         ```java
+         int a, b, c, d = 10;
+         byte e = 22;
+         double pi = 3.14159;
+         char f = 'f';
+         ```
         * Ada beberapa jenis variabel yang biasa digunakan dalam OOP yaitu : 
           - local variabel, 
           - instance variabel, dan 
@@ -234,3 +256,7 @@ public class Nilai{
 void.
 2. Ubahlah tipe data dari int ke double dan tambahkan satu variabel `double nilaiTotal`, kemudian hitung `nilaiTotal` dengan rumus berikut :
    **nilaiTotal = (nilaiUTS + nilaiUAS + nilaiTugas)/3**
+
+
+
+[sauce](https://classroom.google.com/u/0/c/MzEzODgyMTU2NTQw/m/MzM4MjYwNjE5Mjc4/details)
