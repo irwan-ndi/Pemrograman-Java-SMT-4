@@ -72,7 +72,6 @@ public class Pegawai {
     }
     
 }
-
 ```
 ### Package2
 #### RunPegawai.java
@@ -84,7 +83,7 @@ public class Pegawai {
  */
 package Package2;
 
-import Utama.Pegawai;
+import Package1.Pegawai;
 
 /**
  *
@@ -99,6 +98,7 @@ public class RunPegawai extends Pegawai{
         pemilik.getNIK();
     }
 }
+
 
 ```
 ## Hasil 1 :
