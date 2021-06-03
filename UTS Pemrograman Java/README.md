@@ -1,1 +1,4 @@
-gambare = UML
+- gambare = UML
+  - `#` >> protected
+  - `+` >> public
+  - `-` >> private
