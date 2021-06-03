@@ -30,7 +30,6 @@ Pegawai
     - sing dingarani method wi jane sing `void` kuwi,
     - tapi rumus penjabarannya panjang gitu  
   - Objek = String
-  - 
   - Modifier (Pengaksesan)
     - `#` >> protected
     - `+` >> public
