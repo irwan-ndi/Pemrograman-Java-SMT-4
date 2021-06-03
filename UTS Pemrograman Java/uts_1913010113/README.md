@@ -55,7 +55,7 @@ public class Pegawai {
         return this.nama = newNama;
     }
     
-    public void getNama){
+    public void getNama(){
         System.out.println("nama Pegawai "+nama);
     }
     
