@@ -48,11 +48,11 @@ package Utama;
  */
 public class Pegawai {
     
-    private String warna;
+    private String nama;
     private String NIK;
     
     protected String setNama (String newNama){
-        return this.warna = newNama;
+        return this.nama = newNama;
     }
     
     public void getNama){
@@ -64,7 +64,7 @@ public class Pegawai {
     }
     
     public void getNIK(){
-        System.out.println("NIK Pegawai ");
+        System.out.println("NIK Pegawai "+NIK);
     }
     
 }
