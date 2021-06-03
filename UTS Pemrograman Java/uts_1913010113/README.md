@@ -104,6 +104,9 @@ public class RunPegawai extends Pegawai{
 ## Hasil 1 :
 ```
 run:
+nama Pegawai Paijo
+NIK Pegawai 1234567890
+BUILD SUCCESSFUL (total time: 0 seconds)
 
 ```
 ## Jawaban 2
@@ -156,9 +159,9 @@ public class Pegawai {
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package access;
+package Package2;
 
-import Utama.Pegawai;
+import Package1.Pegawai;
 
 /**
  *
@@ -188,3 +191,14 @@ public class RunPegawai extends Pegawai{
 
 ```
 ## Hasil 2 :
+```
+run:
+nama Pegawai Paijo
+NIK Pegawai 1234567890
+nama Pegawai Parto
+NIK Pegawai 0987654321
+nama Pegawai Temon
+NIK Pegawai 999999999
+BUILD SUCCESSFUL (total time: 0 seconds)
+
+```
