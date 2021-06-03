@@ -3,10 +3,10 @@
 ## Soal (UML)
 ```java
 Doraemon
-
+-------------------------------------
 - -warna : String
 - -kumis : int
-
+-------------------------------------
 #setWarna (newWarna:String) : String
 +getWarna() : void
 #setKumis(newKumis: int) : int
