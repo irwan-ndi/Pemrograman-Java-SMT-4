@@ -1,30 +1,31 @@
-# Isi Project `uts_NIMSaudara`
+# Isi Project `uts_1913010113`
 `Utama` dan `access` merupakan **Package**
 ## Soal (UML)
 ```java
-Doraemon
+Pegawai
 -------------------------------------
--warna : String
--kumis : int
+-Nama : String
+--------------
+-NIK : String
 -------------------------------------
-#setWarna (newWarna:String) : String
-+getWarna() : void
-#setKumis(newKumis: int) : int
-+getKumis(): void
+#setNama (newNama:String) : String
++getNama() : void
+#setNIK(newNIK: String) : String
++getNIK(): void
 ```
 ### Keterangan singkat
 - gambare = UML
   - Judol = class
-    - `Doraemon`
+    - `Pegawai`
   - Variabel
-    - `-warna : String`
-    - `-kumis : int`
+    - `-Nama : String`
+    - `-NIK : String`
   - Metode
     ```java
-    #setWarna (newWarna:String) : String
-    +getWarna() : void
-    #setKumis(newKumis: int) : int
-    +getKumis(): void
+    #setNama (newNama: String) : String
+    +getNama() : void
+    #setNIK(newNIK: String) : String
+    +getNIK(): void
     ```
   - Modifier (Pengaksesan)
     - `#` >> protected
@@ -32,7 +33,7 @@ Doraemon
     - `-` >> private
 ## Jawab
 ### Utama
-#### Doraemon.java
+#### Pegawai.java
 ```java
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -45,32 +46,32 @@ package Utama;
  *
  * @author Irwand
  */
-public class Doraemon {
+public class Pegawai {
     
     private String warna;
-    private int kumis;
+    private String NIK;
     
-    protected String setWarna (String newWarna){
-        return this.warna = newWarna;
+    protected String setNama (String newNama){
+        return this.warna = newNama;
     }
     
-    public void getWarna(){
-        System.out.println("warna doraemon "+warna);
+    public void getNama){
+        System.out.println("nama Pegawai "+nama);
     }
     
-    protected int setKumis(int newKumis){
-        return this.kumis = newKumis;
+    protected String setNIK(String newNIK){
+        return this.NIK = newNIK;
     }
     
-    public void getKumis(){
-        System.out.println("jumlah kumis doraemon "+kumis);
+    public void getNIK(){
+        System.out.println("NIK Pegawai ");
     }
     
 }
 
 ```
 ### access
-#### DoraemonAccess.java
+#### PegawaiAccess.java
 ```java
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -79,19 +80,19 @@ public class Doraemon {
  */
 package access;
 
-import Utama.Doraemon;
+import Utama.Pegawai;
 
 /**
  *
  * @author Irwand
  */
-public class DoraemonAccess extends Doraemon{
+public class PegawaiAccess extends Pegawai{
     public static void main(String[] args) {
-            DoraemonAccess dora = new DoraemonAccess();
-        dora.setWarna("Biru");
-        dora.getWarna();
-        dora.setKumis(6);
-        dora.getKumis();
+            PegawaiAccess pemilik = new PegawaiAccess();
+        pemilik.setNama("Biru");
+        pemilik.getNama();
+        pemilik.setNIK(6);
+        pemilik.getNIK();
     }
 }
 
@@ -100,7 +101,5 @@ public class DoraemonAccess extends Doraemon{
 ## Hasil :
 ```
 run:
-warna doraemon Biru
-jumlah kumis doraemon 6
-BUILD SUCCESSFUL (total time: 0 seconds)
+
 ```
