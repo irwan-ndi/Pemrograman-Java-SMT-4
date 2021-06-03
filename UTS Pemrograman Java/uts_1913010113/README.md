@@ -44,7 +44,7 @@ Pegawai
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Utama;
+package Package1;
 
 /**
  *
@@ -82,7 +82,7 @@ public class Pegawai {
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package access;
+package Package2;
 
 import Utama.Pegawai;
 
