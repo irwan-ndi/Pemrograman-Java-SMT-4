@@ -3,7 +3,7 @@
 ## Hasil :
 ```
 run:
-warna doraemonBiru
+warna doraemon Biru
 jumlah kumis doraemon 6
 BUILD SUCCESSFUL (total time: 0 seconds)
 ```
