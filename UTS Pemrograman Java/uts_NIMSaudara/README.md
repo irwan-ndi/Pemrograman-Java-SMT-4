@@ -4,8 +4,8 @@
 ```java
 Doraemon
 -------------------------------------
-- -warna : String
-- -kumis : int
+-warna : String
+-kumis : int
 -------------------------------------
 #setWarna (newWarna:String) : String
 +getWarna() : void
