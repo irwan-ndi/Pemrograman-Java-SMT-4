@@ -1,6 +1,5 @@
-# Folder disini merupakan Package
-
-## Isi Project
+# Isi Project `uts_NIMSaudara`
+`Utama` dan `access` merupakan **Package**
 
 ### Utama
 ```java
