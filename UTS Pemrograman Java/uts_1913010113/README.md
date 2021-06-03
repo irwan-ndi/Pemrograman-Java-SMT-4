@@ -112,7 +112,7 @@ BUILD SUCCESSFUL (total time: 0 seconds)
 ## Jawaban 2
 ### Perintah Tambahan :
 - Buatlah 2 buah objek dari class tersebut tersebut!
--   - Objek = macam-macam orang
+  - Objek = macam-macam orang
 ### Package1
 #### Pegawai.java
 ```java
