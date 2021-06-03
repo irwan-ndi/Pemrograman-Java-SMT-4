@@ -1,6 +1,6 @@
 # Folder disini merupakan Package
 
-## Hasi run :
+## Hasil :
 ```
 run:
 warna doraemonBiru
