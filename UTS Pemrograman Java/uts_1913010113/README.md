@@ -35,7 +35,7 @@ Pegawai
     - `#` >> protected
     - `+` >> public
     - `-` >> private
-## Jawab
+## Jawaban 1
 ### Package1
 #### Pegawai.java
 ```java
@@ -101,9 +101,90 @@ public class RunPegawai extends Pegawai{
 }
 
 ```
-
-## Hasil :
+## Hasil 1 :
 ```
 run:
 
 ```
+## Jawaban 2
+### Perintah Tambahan :
+- Buatlah 2 buah objek dari class tersebut tersebut!
+-   - Objek = macam-macam orang
+### Package1
+#### Pegawai.java
+```java
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Utama;
+
+/**
+ *
+ * @author Irwand
+ */
+public class Pegawai {
+    
+    private String nama;
+    private String NIK;
+    
+    protected String setNama (String newNama){
+        return this.nama = newNama;
+    }
+    
+    public void getNama(){
+        System.out.println("nama Pegawai "+nama);
+    }
+    
+    protected String setNIK(String newNIK){
+        return this.NIK = newNIK;
+    }
+    
+    public void getNIK(){
+        System.out.println("NIK Pegawai "+NIK);
+    }
+    
+}
+
+```
+### Package2
+#### RunPegawai.java
+```java
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package access;
+
+import Utama.Pegawai;
+
+/**
+ *
+ * @author Irwand
+ */
+public class RunPegawai extends Pegawai{
+    public static void main(String[] args) {
+            RunPegawai pemilik1 = new RunPegawai();
+        pemilik1.setNama("Paijo");
+        pemilik1.getNama();
+        pemilik1.setNIK("1234567890");
+        pemilik1.getNIK();
+        
+            RunPegawai pemilik2 = new RunPegawai();
+        pemilik2.setNama("Parto");
+        pemilik2.getNama();
+        pemilik2.setNIK("0987654321");
+        pemilik2.getNIK();
+        
+            RunPegawai pemilik3 = new RunPegawai();
+        pemilik3.setNama("Temon");
+        pemilik3.getNama();
+        pemilik3.setNIK("999999999");
+        pemilik3.getNIK();
+    }
+}
+
+```
+## Hasil 2 :
