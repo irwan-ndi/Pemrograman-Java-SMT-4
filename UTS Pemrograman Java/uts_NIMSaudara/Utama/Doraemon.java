@@ -19,7 +19,7 @@ public class Doraemon {
     }
     
     public void getWarna(){
-        System.out.println("warna doraemon"+warna);
+        System.out.println("warna doraemon "+warna);
     }
     
     protected int setKumis(int newKumis){
