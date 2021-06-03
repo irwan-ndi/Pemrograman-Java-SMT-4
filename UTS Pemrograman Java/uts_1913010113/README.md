@@ -89,9 +89,9 @@ import Utama.Pegawai;
 public class PegawaiAccess extends Pegawai{
     public static void main(String[] args) {
             PegawaiAccess pemilik = new PegawaiAccess();
-        pemilik.setNama("Biru");
+        pemilik.setNama("Paijo");
         pemilik.getNama();
-        pemilik.setNIK(6);
+        pemilik.setNIK("1234567890");
         pemilik.getNIK();
     }
 }
