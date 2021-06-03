@@ -5,7 +5,7 @@
     - `-warna : String`
     - `-kumis : int`
   - Metode
-    ```
+    ```java
     #setWarna (newWarna:String) : String
     +getWarna() : void
     #setKumis(newKumis: int) : int
