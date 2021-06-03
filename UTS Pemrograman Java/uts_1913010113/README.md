@@ -1,5 +1,5 @@
 # Isi Project `uts_1913010113`
-`Utama` dan `access` merupakan **Package**
+`Package1` dan `Package2` merupakan **Package**
 ## Soal (UML)
 ```java
 Pegawai
@@ -32,7 +32,7 @@ Pegawai
     - `+` >> public
     - `-` >> private
 ## Jawab
-### Utama
+### Package1
 #### Pegawai.java
 ```java
 /*
@@ -70,8 +70,8 @@ public class Pegawai {
 }
 
 ```
-### access
-#### PegawaiAccess.java
+### Package2
+#### RunPegawai.java
 ```java
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -86,9 +86,9 @@ import Utama.Pegawai;
  *
  * @author Irwand
  */
-public class PegawaiAccess extends Pegawai{
+public class RunPegawai extends Pegawai{
     public static void main(String[] args) {
-            PegawaiAccess pemilik = new PegawaiAccess();
+            RunPegawai pemilik = new RunPegawai();
         pemilik.setNama("Paijo");
         pemilik.getNama();
         pemilik.setNIK("1234567890");
