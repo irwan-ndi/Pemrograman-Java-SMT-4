@@ -49,12 +49,12 @@ package Package1;
  *
  * @author Irwand
  */
-public class Pegawai {
+public class Pegawai {    // class di set ke public
     
-    private String nama;
+    private String nama;  // modifier, objek, variabel
     private String NIK;
     
-    protected String setNama (String newNama){
+    protected String setNama (String newNama){      // method, modifier  (metode harus dijabarkan oi)
         return this.nama = newNama;
     }
     
@@ -82,17 +82,17 @@ public class Pegawai {
  */
 package Package2;
 
-import Package1.Pegawai;
+import Package1.Pegawai;                              // kita import dari package 2 ke package 1 di class Pegawai
 
 /**
  *
  * @author Irwand
  */
-public class RunPegawai extends Pegawai{
-    public static void main(String[] args) {
-            RunPegawai pemilik = new RunPegawai();
-        pemilik.setNama("Paijo");
-        pemilik.getNama();
+public class RunPegawai extends Pegawai{              // method, class package 2, class package 1  (metode harus dijabarkan oi)
+    public static void main(String[] args) {          // method di set publik
+            RunPegawai pemilik = new RunPegawai();    // kita buat persamaan objek dari RunPegawai menjadi pemilik jika kita sewaktu-waktu ingin menambahkan objek,
+        pemilik.setNama("Paijo");                     // kita jadi tinggal menambahkan angka saja di belakang pemiliknya saja
+        pemilik.getNama();                            // kemudian kita jalankan class RunPegawai, dan hasilnya sebagai berikut
         pemilik.setNIK("1234567890");
         pemilik.getNIK();
     }
@@ -120,7 +120,7 @@ BUILD SUCCESSFUL (total time: 0 seconds)
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Utama;
+package Package1;
 
 /**
  *
@@ -168,16 +168,16 @@ import Package1.Pegawai;
  */
 public class RunPegawai extends Pegawai{
     public static void main(String[] args) {
-            RunPegawai pemilik1 = new RunPegawai();
-        pemilik1.setNama("Paijo");
+            RunPegawai pemilik1 = new RunPegawai();     // kita ganti objek RunPegawai pemilik menjadi pemilik1
+        pemilik1.setNama("Paijo");                      // kita jadi tinggal menambahkan angka saja di belakang pemiliknya saja
         pemilik1.getNama();
         pemilik1.setNIK("1234567890");
         pemilik1.getNIK();
         
-            RunPegawai pemilik2 = new RunPegawai();
-        pemilik2.setNama("Parto");
-        pemilik2.getNama();
-        pemilik2.setNIK("0987654321");
+            RunPegawai pemilik2 = new RunPegawai();     // karena di soal meminta 2 penambahan objek,
+        pemilik2.setNama("Parto");                      // jadi kita tinggal kopikan objek pertama dan menambah 2 objek
+        pemilik2.getNama();                             // jadi nanti masing2 objek bernama pemilik2 dan pemilik3
+        pemilik2.setNIK("0987654321");                  // dan hasilnya sebagai berikut
         pemilik2.getNIK();
         
             RunPegawai pemilik3 = new RunPegawai();
