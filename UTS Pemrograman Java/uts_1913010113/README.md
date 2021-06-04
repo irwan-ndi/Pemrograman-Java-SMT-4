@@ -90,10 +90,10 @@ import Package1.Pegawai;                              // kita import dari packag
  */
 public class RunPegawai extends Pegawai{              // method, class package 2, class package 1  (metode harus dijabarkan oi)
     public static void main(String[] args) {          // method di set publik
-            RunPegawai pemilik = new RunPegawai();    // kita buat persamaan objek dari RunPegawai menjadi pemilik jika kita sewaktu-waktu ingin menambahkan objek,
-        pemilik.setNama("Paijo");                     // kita jadi tinggal menambahkan angka saja di belakang pemiliknya saja
-        pemilik.getNama();                            // kemudian kita jalankan class RunPegawai, dan hasilnya sebagai berikut
-        pemilik.setNIK("1234567890");
+            RunPegawai pemilik = new RunPegawai();    // kita buat persamaan objek dari RunPegawai menjadi pemilik ,
+        pemilik.setNama("Paijo");                     // jika kita sewaktu-waktu ingin menambahkan objek kita 
+        pemilik.getNama();                            // jadi tinggal menambahkan angka saja di belakang pemiliknya saja
+        pemilik.setNIK("1234567890");                 // kemudian kita jalankan class RunPegawai, dan hasilnya sebagai berikut
         pemilik.getNIK();
     }
 }
