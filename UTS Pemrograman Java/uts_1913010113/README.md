@@ -43,18 +43,18 @@ Pegawai
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Package1;
-
+package Package1;         // kita membuat package 1, sebagai package utama
+                          // di dalam package 1 kita membuat class bernama Pegawai, sesuai ketentuan
 /**
  *
  * @author Irwand
  */
-public class Pegawai {    // class di set ke public
+public class Pegawai {    // method class di set ke public
     
-    private String nama;  // modifier, objek, variabel
+    private String nama;  // modifier (set private), objek, variabel
     private String NIK;
     
-    protected String setNama (String newNama){      // method, modifier  (metode harus dijabarkan oi)
+    protected String setNama (String newNama){      // method, modifier  (method di modifier kita set ke protected)
         return this.nama = newNama;
     }
     
@@ -80,8 +80,8 @@ public class Pegawai {    // class di set ke public
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Package2;
-
+package Package2;                                     // kita membuat package 2, sebagai package utama
+                                                      // di dalam package 2, kita membuat class lagi bernama RunPegawai, sesuai ketentuan
 import Package1.Pegawai;                              // kita import dari package 2 ke package 1 di class Pegawai
 
 /**
@@ -94,8 +94,8 @@ public class RunPegawai extends Pegawai{              // method, class package 2
         pemilik.setNama("Paijo");                     // jika kita sewaktu-waktu ingin menambahkan objek kita 
         pemilik.getNama();                            // jadi tinggal menambahkan angka saja di belakang pemiliknya saja
         pemilik.setNIK("1234567890");                 // kemudian kita jalankan class RunPegawai, dan hasilnya sebagai berikut
-        pemilik.getNIK();
-    }
+        pemilik.getNIK();                             // karena methodnya kita set public, maka UML 2 di package 2
+    }                                                 //  dapat terhubung dengan UML 1 di package 1
 }
 
 
@@ -166,7 +166,7 @@ import Package1.Pegawai;
  *
  * @author Irwand
  */
-public class RunPegawai extends Pegawai{
+public class RunPegawai extends Pegawai{                // langsung saja kita menuju ke class RunPegawai di package 2
     public static void main(String[] args) {
             RunPegawai pemilik1 = new RunPegawai();     // kita ganti objek RunPegawai pemilik menjadi pemilik1
         pemilik1.setNama("Paijo");                      // kita jadi tinggal menambahkan angka saja di belakang pemiliknya saja
