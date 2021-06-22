@@ -1,6 +1,6 @@
 # CONSTRUCTOR
 - metode yg dpt digunakan utk memberikan nilai awal saat object diciptakan.
-- metode ini akan dipanggil scr otomatis oleh java ketika new dipakai untuk menciptakan object dr suatu kelas
+- metode ini akan dipanggil scr otomatis oleh java ketika ``new`` dipakai untuk menciptakan object dr suatu kelas
 - Karakteristik constructor :
   - nama constructor == nama kelas
   - tidak memiliki nama kembali/return value
