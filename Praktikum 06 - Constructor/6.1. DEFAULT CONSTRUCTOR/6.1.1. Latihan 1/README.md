@@ -30,18 +30,11 @@ public class DataSingkat {
 ### Data Singkat Access
 DataSingkatAccess.java
 ```java
-public class DataSingkat {
-    String nama, nim, alamat;
-    
-    public DataSingkat(String nama, String nim, String alamat) {
-        this.nama = nama;
-        this.nim = nim;
-        this.alamat = alamat;
-    }
-    
-    public void info() {
-        System.out.println("Nama : " + nama + "\nNIM : "
-                  + nim +"\nAlamat : " + alamat);
+public class DataSingkatAccess {
+    public static void main(String[] args) {
+        DataSingkat pc = new
+              DataSingkat ("Irwandi Refraugati", "1913010113", "Bayan, Kadipiro, Solo");
+        pc.info();
     }
   }
 ```
