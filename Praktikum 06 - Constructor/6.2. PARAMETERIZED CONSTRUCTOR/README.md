@@ -38,6 +38,12 @@
       }
     }
     ```
+  - Hasil
+    ```
+    Nama : Luffy    
+    Nim : L2001500xy
+    Semester : 3
+    ```
   - Pada Program 4 baris ke-3, terlihat jelas bahwa ketika kita membuat object baru kita diwajibkan mengisikan nilai dari masing-masing parameter sesuai dengan tipe datanya masing-masing, 
   - dimana nilai dari parameter inilah yang kita sebut sebagai isi dari object.
 - ## 6.2.1. Latihan 2
