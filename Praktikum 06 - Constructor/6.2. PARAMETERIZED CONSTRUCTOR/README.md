@@ -38,7 +38,7 @@
       }
     }
     ```
-  - Hasil
+  - Output
     ```
     Nama : Luffy    
     Nim : L2001500xy
