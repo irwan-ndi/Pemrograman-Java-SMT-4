@@ -1,6 +1,6 @@
 # 6.1.1. Latihan 1
-- Buatlah sebuah class yang bersi 
-  - variabel nama, 
+- Buatlah sebuah class yang bersi variabel
+  - nama, 
   - nim dan 
   - alamat 
   - serta sebuah *constructor default* yang dapat menampilkan 
