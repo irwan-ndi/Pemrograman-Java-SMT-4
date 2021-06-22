@@ -23,6 +23,10 @@
           }
     }
     ```
+  - Hasil
+    ```
+    Default Constructor
+    ```
 ## 6.1.1. Latihan 1
 - Buatlah sebuah class yang bersi 
   - variabel nama, 
