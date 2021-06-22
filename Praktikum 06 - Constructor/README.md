@@ -9,7 +9,7 @@
   - *Parameterized constructor*
 ## 6.1. DEFAULT CONSTRUCTOR
 - merupakan constructor yg scr otomatis dibuatkan oleh java *compiler*
-- shg meskipun kita tdk menuliskan atau membuat constructor scr eksplisit java sudah menyediakannya
+- sehingga meskipun kita tidak menuliskan atau membuat constructor secara eksplisit java sudah menyediakannya
 - __*Program 1. Default Constructor*__
   ```java
   public class Constructor {
