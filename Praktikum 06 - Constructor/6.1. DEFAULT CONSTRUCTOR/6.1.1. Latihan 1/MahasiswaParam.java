@@ -1,4 +1,4 @@
-public class DataSingkat {
+public class MahasiswaParam {
     String nama, nim, alamat;
     
     public DataSingkat(String nama, String nim, String alamat) {
