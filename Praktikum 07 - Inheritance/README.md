@@ -144,7 +144,7 @@ nama yang sama dengan nama variable yang ada pada superclassnya.
 3. Buatlah class dengan main method untuk menampilkan hasil dari kode diatas.
    - Main method harus menampilkan nilai yang tersimpan pada seluruh instance
 variable yang terdapat pada subclass dan superclass.
-_NB: Pada kasus soal nomor 3, variable yang ada di superclass hanya boleh
+   - _NB: Pada kasus soal nomor 3, variable yang ada di superclass hanya boleh
 diakses melalui subclassnya. Mahasiswa tidak diperkenankan mengakses
 langsung variable superclass dari object yang dihasilkan dari superclass._
 ## 7.3. TUGAS
