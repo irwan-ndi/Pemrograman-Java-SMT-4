@@ -5,8 +5,10 @@
 - Suatu class yang diturunkan (inherited from) dari induknya (parent class) akan mewarisi semua atau sebagian sifat (variabel dan fungsi) dari class induknya. 
 - Dengan inheritance kita tidak perlu membuat (mengimplementasikan) ulang suatu class jika kita sudah memiliki class lain yang serupa. 
 - Inheritance dapat digambarkan pada contoh Gambar 7 di bawah ini.
-  
-![Gambar 7](https://github.com/irwandirefraugati/Pemrograman-Java-SMT-4/blob/main/Praktikum%2007%20-%20Inheritance/images/7.jpg)
+
+<p align="center">
+  <img src="https://github.com/irwandirefraugati/Pemrograman-Java-SMT-4/blob/main/Praktikum%2007%20-%20Inheritance/images/7.jpg">
+</p>
 
 - Gambar 7 mengilustrasikan bahwa MountainBike, Roadbike dan TandemBike pas-tilah memiliki banyak kesamaan sifat dengan sepeda pada umumnya, 
 - sehingga untuk membuat ketiga jenis sepeda tersebut kita cukup mengambil karakter dari sepeda secara umum semisal semua sepeda pasti memiliki gear, peda, rem, dan lain sebagainya. 
@@ -26,7 +28,9 @@ Dalam pemrograman berorientasi object inheritance memiliki 3 tipe antara lain
 2. **Multilevel inheritance** : konsep inheritance yang mengijinkan suatu subclass mempunyai subclass lagi.
 3. **Hierarchical inheritance** : Suatu class dapat memiliki lebih dari satu class turunan
 
-![Gambar 7.1](https://github.com/irwandirefraugati/Pemrograman-Java-SMT-4/blob/main/Praktikum%2007%20-%20Inheritance/images/7.1.jpg)
+<p align="center">
+  <img src="https://github.com/irwandirefraugati/Pemrograman-Java-SMT-4/blob/main/Praktikum%2007%20-%20Inheritance/images/7.1.jpg">
+</p>
 
 _Gambar 7.1 Tipe inheritance_
 ### 7.1.1.SINGLE INHERITANCE
@@ -147,4 +151,6 @@ langsung variable superclass dari object yang dihasilkan dari superclass._
 Buatlah kode program berdasarkan Gambar 7.3 di bawah ini, untuk
 mengimplementasikan inheritance!
 
-![Gambar 7.3](https://github.com/irwandirefraugati/Pemrograman-Java-SMT-4/blob/main/Praktikum%2007%20-%20Inheritance/images/7.3.jpg)
+<p align="center">
+  <img src="https://github.com/irwandirefraugati/Pemrograman-Java-SMT-4/blob/main/Praktikum%2007%20-%20Inheritance/images/7.3.jpg">
+</p>
