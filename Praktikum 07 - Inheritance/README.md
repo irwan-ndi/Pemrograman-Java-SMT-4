@@ -131,11 +131,11 @@ bisa mengakses variabel atau method dari anak class (sub class), tetapi sub-clas
 memiliki akses pada variabel atau method dari super class selama variabel atau class
 tersebut tidak bersifat `private`.
 ## 7.2. LATIHAN
-1. - Buatlah suatu class Kendaraan, yang memiliki minimal 3 instance variables
+1. - Buatlah suatu class `Kendaraan`, yang memiliki minimal 3 instance variables
 yang memiliki nilai awal. 
-   - Setelah itu, buatlah class Mobil dan Pesawat, 
+   - Setelah itu, buatlah class `Mobil` dan `Pesawat`, 
    - yang
-masing-masing merupakan subclass dari Kendaraan.
+masing-masing merupakan subclass dari `Kendaraan`.
 2. Dari tiap subclass, buatlah 1 variable unique 
    - yang memiliki nilai awal, 
    - yang tidak terdapat pada superclass, 
