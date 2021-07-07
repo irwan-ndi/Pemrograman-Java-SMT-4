@@ -14,7 +14,7 @@
 - sehingga untuk membuat ketiga jenis sepeda tersebut kita cukup mengambil karakter dari sepeda secara umum semisal semua sepeda pasti memiliki gear, peda, rem, dan lain sebagainya. 
 - Oleh karena itu kita hanya perlu menurunkan sifat sepeda (Bicycle) kemudian kita terapkan pada MountainBike, RoadBike dan TandemBike.
   
-   Untuk menggunakan inheritance kata kunci yang diperlukan adalah extends. Secara umum sintaks dari inheritance adalah seperti berikut :
+   Untuk menggunakan inheritance kata kunci yang diperlukan adalah `extends`. Secara umum sintaks dari inheritance adalah seperti berikut :
 ```java
 class SubClass extends SuperClass{
 	/* code */
